@@ -751,9 +751,9 @@ const EXAM = [
 
   { id: 'e17', lv: 2, src: 'wb', srcNote: '교과서 + 수활북 18차시', tags: ['민립', '교육'], pts: 2.6,
     stem: '민립 대학 설립 운동의 배경과 결과에 대한 설명으로 옳지 <u>않은</u> 것은?',
-    ch: ['일제는 한국인에게 보통 교육과 실업 교육을 주로 하였다.', '한국인에게 고등 교육의 기회는 거의 주어지지 않았다.', '1920년 한규설, 이상재 등이 조직한 조선 교육회가 운동을 이끌었다.', '전국적인 자연재해와 지방 유력자의 참여 부족으로 어려움을 겪었다.', '조선 총독부는 이 운동에 호응하여 한국인을 위한 경성 제국 대학을 세웠다.'],
+    ch: ['일제는 한국인에게 보통 교육과 실업 교육을 주로 하였다.', '한국인에게 고등 교육의 기회는 거의 주어지지 않았다.', '이상재 등이 중심이 된 조선 교육회가 운동을 이끌었다.', '전국적인 자연재해와 지방 유력자의 참여 부족으로 어려움을 겪었다.', '조선 총독부는 이 운동에 호응하여 한국인을 위한 경성 제국 대학을 세웠다.'],
     ans: 4,
-    why: ['O', 'O', 'O — 수활북 18차시: 조선 교육회(1920, 한규설·이상재).', 'O', '경성 제국 대학은 운동을 무마하고 한국 거주 일본인에게 고등 교육을 하려는 것.'] },
+    why: ['O', 'O', 'O — 조선 교육회 → 조선 민립 대학 기성회.', 'O', '경성 제국 대학은 운동을 무마하고 한국 거주 일본인에게 고등 교육을 하려는 것.'] },
 
   { id: 'e18', lv: 3, src: 'my', srcNote: '연표 시기', tags: ['분화'], pts: 2.8,
     stem: '다음 사설이 발표된 시기를 연표에서 옳게 고른 것은?',
@@ -768,14 +768,14 @@ const EXAM = [
     ch: ['ㄱ', 'ㄱ, ㄴ', 'ㄱ, ㄷ', 'ㄴ, ㄹ', 'ㄱ, ㄴ, ㄷ'], ans: 1,
     bw: ['O — 교과서: 한글 보급을 위한 강습회 개최.', 'O — 2025 2차 9번 이윤재 문항의 정답 선지.', 'X', 'X'] },
 
-  { id: 'e20', lv: 3, src: 'wb', srcNote: '수활북 18차시 연계', tags: ['문맹', '분화'], pts: 2.7,
+  { id: 'e20', lv: 3, src: 'wb', srcNote: '교과서 12·43쪽 종합', tags: ['문맹', '분화'], pts: 2.7,
     stem: '1920년대 한국인이 발행한 신문에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?',
     bogi: ["ㄱ. 3·1 운동 이후 일제가 '문화 통치'를 내세우며 발행을 허가하였다.",
            'ㄴ. 조선일보는 한글 교재를 펴내 문자 보급 운동을 벌였다.',
            'ㄷ. 동아일보에는 이광수의 「민족적 경륜」이 사설로 실렸다.',
            'ㄹ. 일제의 검열 없이 자유롭게 기사를 실을 수 있었다.'],
     ch: ['ㄱ, ㄴ', 'ㄴ, ㄹ', 'ㄱ, ㄴ, ㄷ', 'ㄱ, ㄷ, ㄹ', 'ㄴ, ㄷ, ㄹ'], ans: 2,
-    bw: ['O', 'O', 'O', 'X — 정간·압수·기사 삭제 등으로 통제(수활북 18차시).'] },
+    bw: ['O', 'O', 'O', 'X — 검열로 기사 삭제·압수·정간 (교과서 12쪽).'] },
 
   { id: 'e21', lv: 3, src: 'ex25', srcNote: '2025 1차 16번 변형 (사료 배열)', tags: ['물산', '민립', '분화'], pts: 3.0,
     stem: '다음 (가)~(마) 자료를 발표된 순서대로 바르게 나열한 것은?',
@@ -840,7 +840,6 @@ const NOTES = [
   { h: '민립 대학 설립 운동', tags: ['민립', '교육'], lines: [
     '배경: 일제는 {{보통 교육}}·{{실업 교육}} 위주, 고등 교육 기회 거의 X',
     '[필기] {{제2차 조선 교육령}}(1922): 교육 기회 확대·고등 교육 길 (형식) → 실제론 한국인 아동 {{취학률}} 낮음 → 문맹 증가',
-    '[수활북 18차시] {{조선 교육회}}({{1920}}): {{한규설}}, {{이상재}} 등 → 한국인 본위 교육',
     '전개: 이상재 등 조선 교육회 → 경성에서 {{조선 민립 대학 기성회}} → {{1천만 원}} 전국 모금',
     '취지서: 동아일보, {{1923}}. 3. 30. — "대학의 설립이 아니고는 다른 방도가 없다"',
     '결과: 일제 방해·탄압, 전국적 {{자연재해}}, {{지방 유력자}} 참여 부족 → 중단',
@@ -855,8 +854,7 @@ const NOTES = [
     "브나로드 운동: {{동아일보}}, {{1931}}년~, '{{배우자, 가르치자, 다 함께 브나로드}}'",
     "브나로드 = 러시아어 '{{민중 속으로}}' → [필기] {{농촌 계몽 운동}}(민중 계몽 운동)",
     '학생 참여 → 농민·노동자 대상 {{야학}}, {{한글 강습회}}, {{미신}} 타파·{{구습}} 제거',
-    '결과: 농민의 {{민족의식}} 고취한다는 이유로 일제가 {{강제 중단}}',
-    '[연계] 한글 강습회는 {{조선어 학회}}도 개최 (2025 2차 9번)'
+    '결과: 농민의 {{민족의식}} 고취한다는 이유로 일제가 {{강제 중단}}'
   ]},
   { h: '의의와 한계', tags: ['의의'], lines: [
     '의의: 우리 민족의 {{근대적 발전}}을 꾀하고 {{독립의 토대}}를 마련하고자 함',
@@ -893,7 +891,6 @@ const PAIRS = [
   ['물산 장려 운동', '1920 평양 · 조만식', '국채 보상 운동', '1907 대구 · 서상돈'],
   ['자치 운동', '자치 정부·자치 의회 (이광수, 최린, 김성수)', '참정권 운동', '일본 의회에 한국인 대표 (국민 협회)'],
   ['국민 협회', '참정권 운동, 친일 단체', '국민 대표 회의', '1923 상하이, 임시 정부 진로 논의'],
-  ['조선 교육회', '1920 한규설·이상재 → 민립 대학 기성회', '조선 여자 교육회', '차미리사, 여성 교육'],
   ['조선 민립 대학 기성회', '한국인 모금, 실패', '경성 제국 대학', '일제 설립(1924), 일본인 고등 교육'],
   ['타협적(개량적) 민족주의', '이광수·최남선·최린·김성수, 자치론', '비타협적 민족주의', '이상재·안재홍, 완전 독립 → 신간회'],
   ['신간회 회장', '이상재 (민족주의)', '신간회 부회장', '홍명희 (사회주의)'],
@@ -907,7 +904,6 @@ const TIMELINE = [
   [1919, '3·1 운동 → 실력 양성 운동 본격화', 'tb'],
   [1920, '회사령 폐지 — 신고제', 'tb'],
   [1920, '평양 조선 물산 장려회 (조만식)', 'tb'],
-  [1920, '조선 교육회 (한규설·이상재)', 'wb'],
   [1922, '제2차 조선 교육령', 'note'],
   [1923, '조선 민립 대학 기성회 취지서 (동아일보 3. 30.)', 'tb'],
   [1923, '한일 간 관세 폐지', 'ex25'],
@@ -1938,6 +1934,61 @@ u02: {
 };
 </script>
 <script>/* =====================================================================
+   사료 데이터 — 교과서·수활북에 실린 사료 (사료 맞히기 + 사료 실전 자동 출제)
+   t: 주제, title: 정답 이름, d: 날짜 표시, y: 연도(순서 문제용), c: 출처 표시, f: 그 사료에만 해당하는 설명
+   ===================================================================== */
+SRC.auto = '노트·사료 자동 출제';
+const SOURCES = [
+  { id: 's01', t: 't01', lv: 2, title: '범죄 즉결례', d: '1910. 12.', y: 1910, c: '『조선 총독부 관보』, 1910', text: '제1조 경찰서장 또는 그 직무를 취급하는 자는 그 관할 구역 안에서 일어난 다음 각호의 범죄를 즉결할 수 있다. 1. 구류 또는 과료형에 해당하는 죄 ……', f: ['헌병 경찰이 재판 없이 한국인을 즉결 처분할 수 있게 하였다.'] },
+  { id: 's02', t: 't01', lv: 1, title: '조선 태형령', d: '1912. 3.', y: 1912, c: '『조선 총독부 관보』, 1912', text: '제11조 태형은 감옥 또는 즉결 관서에서 비밀리에 행한다. 제13조 본령은 조선인에 한하여 적용한다.', f: ['한국인에게만 적용된 차별적인 형벌 법령이다.'] },
+  { id: 's03', t: 't01', lv: 2, title: '경찰범 처벌 규칙', d: '1912. 3.', y: 1912, c: '『조선 총독부 관보』, 1912', text: '다음 각호에 해당하는 자는 구류 또는 과료에 처한다. …… 불온한 연설을 하거나 불온한 문서, 도서, 시가를 게시·반포·낭독하거나 큰 소리로 읊는 자', f: ['경범죄 항목을 늘려 한국인의 일상생활까지 통제하였다.'] },
+  { id: 's04', t: 't02', lv: 2, title: '사이토 총독의 시정 방침', d: '1919. 9.', y: 1919, c: '1919. 9.', text: '정부는 관제를 개혁하여 총독 임용의 범위를 확장하고 경찰 제도를 개정하며, 또한 일반 관리나 교원 등의 복제를 폐지함으로써 시대의 흐름에 순응하고 ……', f: ['3·1 운동 이후 이른바 ‘문화 정치’를 내세우며 발표되었다.'] },
+  { id: 's05', t: 't02', lv: 1, title: '치안 유지법', d: '1925. 4.', y: 1925, c: '『조선 총독부 관보』, 1925', text: '제1조 국체를 변혁하거나 사유 재산 제도를 부인할 것을 목적으로 결사를 조직하거나 이에 가입한 자는 10년 이하의 징역 또는 금고에 처한다.', f: ['사회주의 운동과 항일 민족 운동을 탄압하는 데 이용되었다.'] },
+  { id: 's06', t: 't02', lv: 3, title: '조선 민족 운동에 대한 대책', d: '1920', y: 1920, c: '1920', text: '핵심적 친일 인물을 골라 그 인물로 하여금 귀족, 양반, 유생, 부호, 교육가, 종교가에 침투하여 각종 친일 단체를 조직하게 한다.', f: ['친일 세력을 키워 민족을 분열시키려는 일제의 방침을 담고 있다.'] },
+  { id: 's07', t: 't03', lv: 1, title: '국가 총동원법', d: '1938', y: 1938, c: '『조선 법령 집람』, 1938', text: '제1조 국가 총동원이란 전시에 국방 목적을 달성하기 위해 국가의 전력을 가장 유효하게 발휘하도록 인적 및 물적 자원을 운용하는 것을 말한다.', f: ['중일 전쟁 이후 인력과 물자를 수탈하는 근거가 되었다.'] },
+  { id: 's08', t: 't03', lv: 1, title: '황국 신민 서사', d: '1937', y: 1937, c: '아동용', text: '1. 우리들은 대일본 제국의 신민입니다. 2. 우리들은 마음을 합하여 천황 폐하에게 충의를 다합니다. 3. 우리들은 인고 단련하여 훌륭하고 강한 국민이 되겠습니다.', f: ['민족 말살 통치 시기 학생과 일반인에게 암송을 강요하였다.'] },
+  { id: 's09', t: 't03', lv: 2, title: '국민학교 규정', d: '1941. 3.', y: 1941, c: '『조선 총독부 관보』, 1941', text: '국민과는 아국(일본)의 도덕·언어·역사·국토 국세 등을 습득하게 하여 국체의 정화를 분명하게 하고 …… 황국의 사명을 자각하게 함으로써 충군애국의 사기를 기르는 것을 요지로 한다.', f: ['소학교를 ‘황국 신민 학교’라는 뜻의 이름으로 바꾸면서 만들어졌다.'] },
+  { id: 's10', t: 't04', lv: 1, title: '토지 조사령', d: '1912. 8.', y: 1912, c: '『조선 총독부 관보』, 1912', text: '제4조 토지 소유자는 조선 총독이 정하는 기간 내에 주소, 성명 또는 명칭 및 소유지의 소재, 지목, 자번호, 사표, 등급, 지적, 결수를 임시 토지 조사국장에게 신고해야 한다.', f: ['정해진 기간 안에 신고해야 토지 소유권을 인정받게 하였다.'] },
+  { id: 's11', t: 't04', lv: 1, title: '회사령', d: '1910. 12.', y: 1910, c: '『조선 총독부 관보』, 1910', text: '제1조 회사의 설립은 조선 총독의 허가를 받아야 한다. …… 제5조 회사가 본령을 위반하거나 공공질서 및 선량한 풍속에 반하는 행위를 할 때에는 조선 총독은 …… 회사의 해산을 명할 수 있다.', f: ['회사 설립을 허가제로 하여 민족 자본의 성장을 억눌렀다.'] },
+  { id: 's12', t: 't04', lv: 2, title: '조선 광업령', d: '1915. 12.', y: 1915, c: '『조선 총독부 관보』, 1915', text: '제6조 제국 신민 또는 제국 법령에 따라 성립한 법인이 아니면 광업권을 가질 수 없다.', f: ['한국의 광산 자원을 일본인이 독점하는 데 이용되었다.'] },
+  { id: 's13', t: 't05', lv: 2, title: '쌀 이출을 다룬 동아일보 기사', d: '1927. 4.', y: 1927, c: '동아일보, 1927. 4. 8.', text: '대개 조선인들이 생산한 쌀을 수출하거나 이출할 때 결코 자신들이 충분히 소비하고 남은 것을 수출하는 것이 아니다. 생계가 곤란하여 먹을 것을 먹지 못하고 파는 것이다.', f: ['산미 증식 계획 시기에 쌀 이출이 늘어난 상황을 다루었다.'] },
+  { id: 's14', t: 't06', lv: 2, title: '공출을 독려하는 포스터', d: '1940년대', y: null, c: '조선 총독부', text: '‘한 알의 쌀이라도 더 많이 나라에 바쳐서 짐승 같은 미·영을 때려 부수자!’ ‘공출 때는 지주님도 한몫 해 주시니 고마워.’', f: ['농가마다 목표량을 정해 쌀을 강제로 걷던 시기에 만들어졌다.'] },
+  { id: 's15', t: 't08', lv: 1, title: '2·8 독립 선언서', d: '1919. 2.', y: 1919, c: '1919', text: '조선 청년 독립단은 아(我) 2천만 민족을 대표하여 정의와 자유의 승리를 얻은 세계 만국 앞에 독립을 달성하기를 선언하노라. …… 우리 민족은 생존을 위하여 자유의 행동을 취하여 독립을 기하기를 선언하노라.', f: ['도쿄의 한국인 유학생들이 발표하였다.'] },
+  { id: 's16', t: 't08', lv: 1, title: '3·1 독립 선언서', d: '1919. 3.', y: 1919, c: '보성사판', text: '오등은 자에 아(我) 조선의 독립국임과 조선인의 자주민임을 선언하노라. 이로써 세계 만방에 고하여 인류 평등의 대의를 극명하며 ……', f: ['민족 대표 33인의 이름으로 발표되었다.'] },
+  { id: 's17', t: 't09', lv: 2, title: '대한민국 임시 정부 성립 축하문', d: '1919. 11.', y: 1919, c: '독립신문, 1919. 11. 15.', text: '10년의 노예 생활을 벗어나 금일에 다시 독립 대한의 국민이 되었도다. …… 다시 부패한 전제 정부의 노예도 아니요, 독립한 민주국의 자유민이라.', f: ['삼권 분립에 기초한 민주 공화제 정부의 수립을 축하하였다.'] },
+  { id: 's18', t: 't09', lv: 2, title: '국민 대표 회의 선언문', d: '1923. 1.', y: 1923, c: '1923', text: '본 국민 대표 회의는 이천만 민중의 공정한 뜻에 바탕을 둔 국민적 대회합으로 최고의 권위를 지녀 …… 통일적 기관 아래서 대업을 완성하고자 하노라.', f: ['창조파와 개조파 등의 대립으로 결렬되었다.'] },
+  { id: 's19', t: 't09', lv: 3, title: '이승만의 위임 통치 청원서', d: '1919', y: 1919, c: '『한국 독립운동사 자료집』', text: '우리는 자유를 사랑하는 2천만의 이름으로 각하에게 청원합니다. …… 장래 완전한 독립을 보증하고 당분간은 한국을 국제 연맹 통치 밑에 두게 할 것을 바랍니다.', f: ['이 청원은 훗날 이승만이 임시 정부 대통령에서 탄핵되는 배경이 되었다.'] },
+  { id: 's20', t: 't10', lv: 1, title: '조선 혁명 선언', d: '1923', y: 1923, c: '1923', text: '민중은 우리 혁명의 대본영이다. 폭력은 우리 혁명의 유일한 무기이다. 우리는 민중 속으로 가서 민중과 손을 맞잡고 끊임없는 폭력, 암살, 파괴, 폭동으로써 강도 일본의 통치를 타도하고 ……', f: ['신채호가 작성하였고 의열단의 활동 지침이 되었다.'] },
+  { id: 's21', t: 't10', lv: 2, title: '김상옥 의거를 보도한 기사', d: '1923. 3.', y: 1923, c: '동아일보, 1923. 3. 15.', text: '1월 12일 저녁에 종로 경찰서에 폭발탄이 터진 이후 …… 일본 수백 명 경관은 왕십리 일대와 광희정 일대를 수색하며 기마 순사가 총검을 번쩍이며 ……', f: ['의열단원의 의거를 다루었다.'] },
+  { id: 's22', t: 't11', lv: 1, title: '물산 장려 운동 취지서', d: '1923. 12.', y: 1923, c: '『산업계』, 1923. 12.', text: '조선 사람은 조선 사람이 지은 것을 사서 쓰고, 조선 사람은 단결하여 그가 쓰는 물건을 스스로 제작하여 공급하기를 목적하노라.', f: ['조만식 등이 평양에서 시작한 운동과 관련 있다.'] },
+  { id: 's23', t: 't11', lv: 1, title: '조선 민립 대학 기성회 발기 취지서', d: '1923. 3.', y: 1923, c: '동아일보, 1923. 3. 30.', text: '우리의 운명을 어떻게 개척할까? …… 심오한 지식과 학문은 고등 교육이 아니면 불가하며, …… 대학의 설립이 아니고는 다른 방도가 없다.', f: ['1천만 원을 목표로 전국적인 모금 운동을 벌였다.'] },
+  { id: 's24', t: 't11', lv: 2, title: '문자 보급 운동을 다룬 조선일보 기사', d: '1934. 6.', y: 1934, c: '조선일보, 1934. 6. 10.', text: '전 인구의 1,000분의 20밖에 문자를 이해하지 못하고, 취학 연령 아동의 10분의 3밖에 학교에 갈 수 없는 조선의 현실에서 간단하고 쉬운 문자의 보급은 …… 가장 시급한 일이라 하겠다.', f: ['‘아는 것이 힘, 배워야 산다’를 표어로 내건 운동과 관련 있다.'] },
+  { id: 's25', t: 't11', lv: 1, title: '이광수, 「민족적 경륜」', d: '1924. 1.', y: 1924, c: '동아일보, 1924. 1. 3.', text: '지금까지 해 온 정치적 운동은 모두 일본을 적대시하는 운동뿐이었다. …… 조선 내에서 허용되는 범위 내에서 일대 정치적 결사를 조직해야 한다는 것이 우리의 주장이다.', f: ['일제가 허용하는 범위 안의 자치를 주장하여 비판을 받았다.'] },
+  { id: 's26', t: 't12', lv: 2, title: '조선 민흥회의 제안', d: '1926. 7.', y: 1926, c: '시대일보, 1926. 7. 11.', text: '조선 민흥회는 조선 민족의 공동 권익을 쟁취하고, 조선민의 단일 전선을 결성할 목적으로 창설되었습니다.', f: ['비타협적 민족주의 세력이 일부 사회주의 세력과 함께 만든 단체의 주장이다.'] },
+  { id: 's27', t: 't12', lv: 2, title: '정우회 선언', d: '1926. 11.', y: 1926, c: '조선일보, 1926. 11. 17.', text: '민족주의적 세력에 대해서는 …… 우리와 과정적 동맹을 맺을 수 있음을 충분히 인정하여, 적극적으로 제휴해야 할 것입니다.', f: ['사회주의 계열이 민족주의 세력과의 연대를 주장하였다.'] },
+  { id: 's28', t: 't12', lv: 1, title: '신간회 강령', d: '1927. 1.', y: 1927, c: '동아일보, 1927. 1. 20.', text: '1. 우리는 정치·경제적 각성을 촉진함. 2. 우리는 단결을 공고히 함. 3. 우리는 기회주의를 일체 부인함.', f: ['광주 학생 항일 운동 때 진상 조사단을 보낸 단체의 강령이다.'] },
+  { id: 's29', t: 't12', lv: 3, title: '코민테른의 12월 테제', d: '1928. 12.', y: 1928, c: '1928', text: '민족 혁명 운동에 계급성을 부여하고 그것을 타협적 개량주의로부터 분리시킴으로써 …… 프롤레타리아 혁명 운동을 강화하여야 한다.', f: ['일부 사회주의자들이 신간회 해소를 주장하는 배경이 되었다.'] },
+  { id: 's30', t: 't13', lv: 2, title: '토막민 문제를 다룬 동아일보 기사', d: '1931. 11.', y: 1931, c: '동아일보, 1931. 11. 22.', text: '경성부의 발표에 의하면 경성부 내의 토막민 수가 1,583호이고 인구가 5,000여 명에 달한다고 한다. …… 1928년의 통계보다 거의 200호가 증가하였다.', f: ['도시 변두리에 움막을 짓고 살던 도시 빈민을 다루었다.'] },
+  { id: 's31', t: 't13', lv: 2, title: '소작료 문제를 다룬 동아일보 기사', d: '1932. 4.', y: 1932, c: '동아일보, 1932. 4. 29.', text: '소작료는 각 지방마다 다르지만 …… 보통은 5할이 평균이다. 그러나 전라북도 남원 등에서는 소작료를 올려서 요즘에는 7할 또는 8할에 이르게 되었다.', f: ['지역에 따라 수확량의 7~8할을 소작료로 낸 현실을 다루었다.'] },
+  { id: 's32', t: 't17', lv: 2, title: '한국 독립군과 중국군의 합의', d: '1931', y: 1931, c: '한국광복군 사령부, 『광복』', text: '한중 양군은 최악의 상황이 오는 경우에도 장기간 항전할 것을 맹세한다. …… 중동 철도를 경계선으로 서부 전선은 중국이 맡고, 동부 전선은 한국이 맡는다.', f: ['지청천이 이끈 부대가 북만주에서 중국 호로군과 연합하였다.'] },
+  { id: 's33', t: 't17', lv: 2, title: '조선 혁명군과 중국군의 합의', d: '1932', y: 1932, c: '한국광복군 사령부, 『광복』', text: '중국과 한국 양국의 군민은 한마음 한뜻으로 일제에 대항하여 싸우고, 인력과 물자는 서로 나누어 쓰며, 합작의 원칙 아래 국적과 관계없이 그 능력에 따라 항일 공작을 나누어 맡는다.', f: ['양세봉이 이끈 부대가 남만주에서 중국 의용군과 연합하였다.'] },
+  { id: 's34', t: 't18', lv: 1, title: '이봉창의 한인 애국단 선서문', d: '1931. 12.', y: 1931, c: '대한민국 13년 12월', text: '나는 적성으로써 조국의 독립과 자유를 회복하기 위하여 한인 애국단의 일원이 되어 적국의 수괴를 도륙하기로 맹세하나이다.', f: ['김구가 상하이에서 조직한 단체에 들어가며 쓴 것이다.'] },
+  { id: 's35', t: 't19', lv: 2, title: '한국광복군 선언문', d: '1940', y: 1940, c: '『대한민국 임시 정부 자료집』', text: '대한민국 임시 정부는 …… 중화민국 영토 내에서 광복군을 조직하고 …… 공동의 적인 일본 제국주의자들을 타도하고자 연합군의 일원으로 항전을 계속한다.', f: ['충칭에서 창설된 임시 정부 군대의 선언이다.'] },
+  { id: 's36', t: 't19', lv: 2, title: '대한민국 임시 정부 대일 선전 성명서', d: '1941. 12.', y: 1941, c: '1941', text: '우리는 3천만 한국인과 정부를 대표하여 …… 한국 전체 인민은 현재 이미 반침략 전선에 참가하였으니, 한 개의 전투 단위로서 추축국에 선전한다.', f: ['아시아·태평양 전쟁이 일어난 직후 발표되었다.'] },
+  { id: 's37', t: 't19', lv: 1, title: '대한민국 건국 강령', d: '1941. 11.', y: 1941, c: '『대한민국 임시 정부 자료집』', text: '삼균 제도를 골자로 한 헌법을 실시하여 정치·경제·교육의 민주적 시설로 실제상 균형을 도모하며, 전국의 토지와 대생산 기관의 국유가 완성되고 ……', f: ['조소앙의 삼균주의를 바탕으로 하였다.'] },
+  { id: 's38', t: 't19', lv: 2, title: '조선 독립 동맹의 건국 강령', d: '1942. 8.', y: 1942, c: '해방일보, 1942. 8. 29.', text: '본 동맹은 일본 제국주의의 조선 통치를 전복하고, 독립 자유의 조선 민주 공화국 건립을 목적으로 하여 아래의 제 임무를 규정한다. 1. 전 국민의 보통 선거에 의한 민주 정권을 수립한다.', f: ['김두봉을 주석으로 하고 조선 의용군을 두었다.'] },
+  { id: 's39', t: 't19', lv: 2, title: '조선 건국 동맹의 건국 강령', d: '1944', y: 1944, c: '『여운형 투쟁사』', text: '1. 각인 각파를 대동단결하여 거국일치로 일본 제국주의의 모든 세력을 몰아내고 조선 민족의 자유와 독립을 회복할 것', f: ['여운형이 국내에서 비밀리에 조직한 단체의 강령이다.'] },
+  { id: 's40', t: 't19', lv: 1, title: '카이로 선언', d: '1943. 11.', y: 1943, c: '1943', text: '3대국은 한국 인민의 노예 상태에 유의하여 적당한 시기에 한국이 자유롭고 독립하게 될 것을 결의한다.', f: ['미국·영국·중국 대표가 처음으로 한국 독립을 약속하였다.'] },
+  { id: 's41', t: 'u01', lv: 1, title: '모스크바 3국 외상 회의 결정', d: '1945. 12.', y: 1945, c: '동아일보, 1945. 12. 30.', text: '조선 임시 정부 수립을 원조하기 위하여 …… 남조선 미군 사령부 대표들과 북조선 소련군 사령부 대표들로 공동 위원회를 조직한다. …… 5년 이내를 기한으로 하는 조선에 대한 4개국 신탁 통치 협약을 작성한다.', f: ['미소 공동 위원회를 설치하기로 결정하였다.'] },
+  { id: 's42', t: 'u01', lv: 2, title: '신탁 통치 반대 국민 대회 선언문', d: '1946. 1.', y: 1946, c: '중앙신문, 1946. 1. 1.', text: '카이로, 포츠담 선언과 국제 헌장으로 세계에 공약한 한국의 독립 부여는 금번 모스크바 3상 회의의 신탁 관리 결의로 수포로 돌아갔다. …… 3천만의 총역량을 발휘하여 신탁 관리제를 배격하는 국민운동을 전개한다.', f: ['우익 세력이 신탁 통치 결정에 반대하며 발표하였다.'] },
+  { id: 's43', t: 'u01', lv: 2, title: '모스크바 3국 외상 회의 결정 지지 담화문', d: '1946. 1.', y: 1946, c: '중앙신문, 1946. 1. 3.', text: '카이로 선언이 조선 독립을 ‘적당한 시기’에 준다는 것인데 이번 회담에서 5년 이내로 규정된 것이다. …… 하루속히 민주주의 원칙을 내세우고 조선 민족 통일 전선을 완성하는 데 힘을 모아야 한다.', f: ['좌익 세력이 입장을 바꾸어 회의 결정을 지지하였다.'] },
+  { id: 's44', t: 'u02', lv: 1, title: '이승만의 정읍 발언', d: '1946. 6.', y: 1946, c: '서울신문, 1946. 6. 5.', text: '무기 휴회된 공위가 재개될 기색도 보이지 않으며 통일 정부를 고대하나 여의케 되지 않으니 우리는 남방만이라도 임시 정부 혹은 위원회 같은 것을 조직하여 ……', f: ['남한만이라도 정부를 세우자는 주장으로, 좌우 합작 운동의 배경이 되었다.'] },
+  { id: 's45', t: 'u02', lv: 2, title: '좌우 합작 7원칙', d: '1946. 10.', y: 1946, c: '동아일보, 1946. 10. 8.', text: '1. 모스크바 3국 외상 회의의 결정에 따라 남북의 좌우 합작으로 민주주의 임시 정부를 수립할 것 …… 3. 토지는 몰수, 유조건 몰수, 체감 매상 등으로 농민에게 무상으로 분여할 것', f: ['여운형과 김규식 등 중도 세력이 주도하였다.'] },
+  { id: 's46', t: 'u02', lv: 1, title: '김구, 「삼천만 동포에게 읍고함」', d: '1948. 2.', y: 1948, c: '경향신문, 1948. 2. 11.', text: '한국이 있어야 한국 사람이 있고, 한국 사람이 있고야 민주주의도, 공산주의도, 무슨 단체도 존재할 수 있는 것이다. …… 나는 통일된 조국을 건설하려다가 38도선을 베고 쓰러질지언정 ……', f: ['남한만의 단독 정부 수립에 반대하며 발표되었다.'] },
+  { id: 's47', t: 'u02', lv: 2, title: '남북 협상 공동 성명', d: '1948. 4.', y: 1948, c: '『한국 현대사 자료 총서』', text: '1. 우리 강토에서 외국 군대가 즉시 철수하는 것이 조선 문제를 해결하는 유일한 방법이다. …… 4. 남조선 단독 선거의 결과를 결코 인정하지 않을 것이며 지지하지도 않을 것이다.', f: ['평양의 남북 연석회의에서 발표되었다.'] }
+];
+</script>
+<script>/* =====================================================================
    앱 로직
    ===================================================================== */
 const $ = (s, el = document) => el.querySelector(s);
@@ -1946,6 +1997,7 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;',
 const shuffle = a => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const CIRC = ['①', '②', '③', '④', '⑤'];
 const KIND = { blank: '빈칸', org: '단체·기관', person: '인물', year: '연도', slogan: '구호', mc4: '사지선다', ox: 'OX', exam: '실전' };
+KIND.src = '사료';
 const CATN = { o: '단체·기관', p: '인물', y: '연도', l: '법령·정책', e: '사건·운동', w: '용어', r: '지역', d: '문서·신문' };
 const topicNo = id => (TOPICS.find(t => t.id === (id || 't11')) || {}).no || '11';
 const tIdx = id => TOPICS.findIndex(t => t.id === (id || 't11'));
@@ -1953,15 +2005,17 @@ const TAGN = { 물산: '물산 장려', 민립: '민립 대학', 문맹: '문맹
 
 /* ---------- 저장 ---------- */
 const KEY = 'hk-silryeok-v1';
-const DEF = { mode: 'recall', lv: [1, 2, 3], src: Object.keys(SRC), kinds: ['blank', 'org', 'person', 'year', 'slogan', 'mc4', 'ox'], ans: 'choice', n: 20, wrongFirst: false, topics: TOPICS.map(t => t.id) };
-let S = { wrong: {}, stat: {}, set: { ...DEF } };
+const DEF = { mode: 'recall', lv: [1, 2, 3], src: Object.keys(SRC), kinds: ['blank', 'org', 'person', 'year', 'slogan', 'mc4', 'ox', 'src'], ans: 'choice', n: 20, wrongFirst: false, topics: TOPICS.map(t => t.id) };
+let S = { wrong: {}, stat: {}, seen: {}, set: { ...DEF } };
 try {
   const raw = localStorage.getItem(KEY);
-  if (raw) { const o = JSON.parse(raw); S = { wrong: o.wrong || {}, stat: o.stat || {}, set: { ...DEF, ...(o.set || {}) } }; }
+  if (raw) { const o = JSON.parse(raw); S = { wrong: o.wrong || {}, stat: o.stat || {}, seen: o.seen || {}, set: { ...DEF, ...(o.set || {}) } }; }
 } catch (e) { /* 저장소를 못 쓰면 이번 실행 동안만 기억 */ }
 S.set.topics = (S.set.topics || []).filter(id => TOPICS.some(t => t.id === id));
 if (!S.set.topics.length) S.set.topics = TOPICS.map(t => t.id);
+if (S.set.v !== 2) { if (!S.set.src.includes('auto')) S.set.src.push('auto'); if (!S.set.kinds.includes('src')) S.set.kinds.push('src'); S.set.v = 2; }
 function save() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { } }
+function recordItem(it, ok) { (it.rec || [it.id]).forEach(r => record(r, ok)); }
 function record(id, ok) {
   const st = S.stat[id] || [0, 0]; st[ok ? 0 : 1]++; S.stat[id] = st;
   if (ok) { if (S.wrong[id]) { S.wrong[id]--; if (S.wrong[id] <= 0) delete S.wrong[id]; } }
@@ -1970,8 +2024,9 @@ function record(id, ok) {
 }
 
 /* ---------- 문제 은행 만들기 ---------- */
-const orgNames = ORGS.map(o => o.n);
-const pplNames = PEOPLE.map(p => p.n);
+const OOS_NAMES = ['조선어 학회', '조선 여자 교육회', '한규설', '차미리사'];
+const orgNames = ORGS.map(o => o.n).filter(n => !OOS_NAMES.includes(n));
+const pplNames = PEOPLE.map(p => p.n).filter(n => !OOS_NAMES.includes(n));
 function poolOf(name) {
   if (name === 'org') return orgNames;
   if (name === 'person') return pplNames;
@@ -1980,7 +2035,7 @@ function poolOf(name) {
 }
 function fill3(answer, first, pool) {
   const out = [];
-  for (const x of (first || [])) if (x !== answer && !out.includes(x) && out.length < 3) out.push(x);
+  for (const x of (first || [])) if (x !== answer && !OOS_NAMES.includes(x) && !out.includes(x) && out.length < 3) out.push(x);
   for (const x of shuffle(pool)) if (x !== answer && !out.includes(x) && out.length < 3) out.push(x);
   return out;
 }
@@ -1997,7 +2052,7 @@ RECALL.forEach(r => {
   BANK.push(it);
 });
 function descPool(list, selfName) {
-  return list.filter(o => o.d && o.n !== selfName).flatMap(o => o.d.map(d => ({ d, n: o.n })))
+  return list.filter(o => o.d && o.n !== selfName && !OOS_NAMES.includes(o.n)).flatMap(o => o.d.map(d => ({ d, n: o.n })))
     .filter(x => !x.d.includes(selfName));
 }
 [[ORGS, 'org'], [PEOPLE, 'person']].forEach(([list, k]) => {
@@ -2060,14 +2115,167 @@ function balanced(list) {
   while (out.length < list.length) keys.forEach(k => { if (g[k].length) out.push(g[k].shift()); });
   return out;
 }
+
+/* ---------- 사료 맞히기 ---------- */
+SOURCES.forEach(s => BANK.push({ id: `src:${s.id}`, k: 'src', t: s.t, lv: s.lv || 2, src: 'tb', tags: [s.t], s, q: s.text, a: s.title }));
+/* ---------- 범위 밖(주제 15·18차시) 문항 제외 ---------- */
+const OOS_IDS = new Set(['b50', 'b51', 'm17', 'o13', 'e19']);
+const isOOS = b => OOS_IDS.has(b.id) || OOS_NAMES.includes(b.a) || OOS_NAMES.includes(b.name) || (b.k === 'year' && /조선 교육회를 조직/.test(b.q || ''));
+for (let i = BANK.length - 1; i >= 0; i--) if (isOOS(BANK[i])) BANK.splice(i, 1);
+for (let i = EXAM.length - 1; i >= 0; i--) if (isOOS(EXAM[i])) EXAM.splice(i, 1);
+
+/* ---------- 반복 줄이기: 덜 본 문제 먼저 + 같은 문장 한 번만 + 주제 고르게 ---------- */
+function grpOf(x) {
+  if (x.grp) return x.grp;
+  if (x.sent) return x.id.split(':').slice(0, 4).join(':');
+  const m = x.id.match(/^g(org|person)r?:(.+?)(:\d+)?$/); if (m) return 'g:' + m[2];
+  if (x.id.startsWith('gslo')) return 'slo:' + (x.m || x.a);
+  return x.id;
+}
+function pickSpaced(list, n) {
+  const arr = shuffle(list).sort((a, b) => (S.seen[a.id] || 0) - (S.seen[b.id] || 0));
+  const by = {}; arr.forEach(x => (by[x.t || 't11'] = by[x.t || 't11'] || []).push(x));
+  const keys = shuffle(Object.keys(by)); const out = []; const used = new Set();
+  let moved = true;
+  while (out.length < n && moved) {
+    moved = false;
+    for (const k of keys) {
+      const b = by[k];
+      while (b.length) { const x = b.shift(); const g = grpOf(x); if (used.has(g)) continue; used.add(g); out.push(x); moved = true; break; }
+      if (out.length >= n) break;
+    }
+  }
+  for (const x of arr) { if (out.length >= n) break; if (!out.includes(x)) out.push(x); }
+  return out;
+}
+
+/* ---------- 실전 자동 출제 (노트 바꿔치기 / 순서 배열 / 사료) ---------- */
+const AUTO_BY = {};
+const plainLine = s => s.replace(KEYRE, (_, k) => k.split('|')[0]);
+const cleanTxt = s => s.replace(/^\[.+?\]\s*/, '');
+const LBL = ['(가)', '(나)', '(다)', '(라)', '(마)'];
+const YEARS_ALL = [...new Set([...YEAR_POOL, 1912, 1915, 1918, 1928, 1930, 1932, 1933, 1935, 1936, 1937, 1938, 1939, 1940, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948])];
+const TL_CACHE = {};
+function topicLines(tid) {
+  if (TL_CACHE[tid]) return TL_CACHE[tid];
+  const T = TD[tid]; const out = [];
+  if (T) T.notes.forEach(([h, lines], si) => lines.forEach((raw, li) => {
+    const { line, lv } = lineMeta(raw);
+    const keys = [...line.matchAll(KEYRE)].map((m, n) => ({ ...parseKey(m[1]), n }));
+    const plain = cleanTxt(plainLine(line));
+    if (plain.length < 14 || plain.length > 115) return;
+    out.push({ tid, si, li, line, plain, keys, lv, sw: keys.filter(k => k.w || 'opyreld'.includes(k.cat) && k.cat !== 'w') });
+  }));
+  return (TL_CACHE[tid] = out);
+}
+function swapFor(L, k) {
+  const inLine = x => L.plain.includes(x);
+  if (k.cat === 'y') { const c = YEARS_ALL.filter(y => y !== +k.a && Math.abs(y - k.a) <= 3 && !inLine(String(y))); return c.length ? String(shuffle(c)[0]) : null; }
+  if (k.w && k.w.length) { const c = k.w.filter(x => !inLine(x)); return c.length ? shuffle(c)[0] : null; }
+  const pool = KEYPOOL[k.cat] || [];
+  const same = shuffle(pool.filter(x => x.t === L.tid).map(x => x.a));
+  const near = shuffle(pool.filter(x => Math.abs(tIdx(x.t) - tIdx(L.tid)) <= 2).map(x => x.a));
+  for (const x of [...same, ...near]) if (x !== k.a && !inLine(x) && !(k.alt || []).includes(x) && !x.includes(k.a) && !k.a.includes(x)) return x;
+  return null;
+}
+function lineWith(L, n, rep) { let i = -1; return cleanTxt(L.line.replace(KEYRE, (_, s) => { i++; const kk = s.split('|')[0]; return i === n ? rep : kk; })); }
+function genTF(tid) {
+  const Ls = shuffle(topicLines(tid)); if (Ls.length < 5) return null;
+  for (const bad of Ls.filter(L => L.sw.length)) {
+    const k = shuffle(bad.sw)[0]; const rep = swapFor(bad, k); if (!rep) continue;
+    const others = Ls.filter(L => L !== bad).slice(0, 4);
+    const opts = shuffle([...others.map(L => ({ t: L.plain, ok: true })), { t: lineWith(bad, k.n, rep), ok: false }]);
+    const T = TOPICS.find(t => t.id === tid);
+    return { id: `auto:tf:${tid}:${bad.si}:${bad.li}:${k.n}:${rep}`, grp: `tf:${tid}:${bad.si}:${bad.li}`, k: 'exam', auto: true, t: tid, lv: 2, src: 'auto', srcNote: '노트 바꿔치기 자동 출제', tags: [tid], pts: 2.5,
+      stem: `주제 ${T.no} ‘${T.short}’에 대한 설명으로 옳지 <u>않은</u> 것은?`, ch: opts.map(o => o.t), ans: opts.findIndex(o => !o.ok),
+      why: opts.map(o => o.ok ? 'O' : `‘${rep}’이(가) 아니라 ‘${k.a}’`), rec: [`a:${tid}:${bad.si}:${bad.li}:${k.n}`] };
+  }
+  return null;
+}
+function orderChoices(n) {
+  const c = LBL.slice(0, n); const set = new Set([c.join('-')]); const out = [c];
+  for (let i = 0; i < n - 1 && out.length < 4; i++) { const p = [...c]; [p[i], p[i + 1]] = [p[i + 1], p[i]]; if (!set.has(p.join('-'))) { set.add(p.join('-')); out.push(p); } }
+  let g = 0; while (out.length < 5 && g++ < 50) { const p = shuffle(c); if (!set.has(p.join('-'))) { set.add(p.join('-')); out.push(p); } }
+  return out;
+}
+function buildOrder(items, id, note, rec, kindBox) {
+  const disp = shuffle(items); const lab = new Map(disp.map((x, i) => [x, LBL[i]]));
+  const sorted = [...disp].sort((a, b) => a.y - b.y);
+  const perms = orderChoices(disp.length).map((p, pi) => pi === 0 ? sorted.map(x => lab.get(x)) : p.map(l => sorted[LBL.indexOf(l)]).map(x => lab.get(x)));
+  const ch = shuffle(perms.map(p => p.join('-')));
+  const right = sorted.map(x => lab.get(x)).join('-');
+  const expl = sorted.map(x => `${lab.get(x)} ${x.y}${x.title ? ' ' + x.title : ''}`).join(' → ');
+  return { id, grp: id, k: 'exam', auto: true, t: items[0].t, lv: 3, src: 'auto', srcNote: note, tags: [...new Set(items.map(x => x.t))], pts: 2.9,
+    stem: `다음 (가)~(${LBL[disp.length - 1].slice(1, 2)})를 ${kindBox === 'src' ? '발표된' : '일어난'} 순서대로 바르게 나열한 것은?`,
+    box: { kind: kindBox === 'src' ? 'src' : 'list', html: disp.map(x => `${lab.get(x)} ${esc(x.txt)}`).join(kindBox === 'src' ? '<br><br>' : '<br>') },
+    ch, ans: ch.indexOf(right), why: ch.map(c => c === right ? expl : '순서가 달라요.'), rec };
+}
+function genNoteOrder(tids) {
+  const cand = [];
+  tids.forEach(tid => topicLines(tid).forEach(L => {
+    const ys = L.keys.filter(k => k.cat === 'y'); if (ys.length !== 1) return;
+    const txt = lineWith(L, ys[0].n, '○○○○'); if (/\d{4}/.test(txt)) return;
+    cand.push({ t: tid, y: +ys[0].a, txt, rid: `a:${tid}:${L.si}:${L.li}:${ys[0].n}` });
+  }));
+  const pick = []; const ys = new Set();
+  for (const c of shuffle(cand)) { if (pick.length >= 4) break; if (!ys.has(c.y)) { ys.add(c.y); pick.push(c); } }
+  if (pick.length < 4) return null;
+  return buildOrder(pick, `auto:no:${pick.map(p => p.rid).sort().join('|')}`, '노트 연표 자동 출제', pick.map(p => p.rid), 'list');
+}
+function genSrcOrder(tids) {
+  const cand = SOURCES.filter(s => s.y && tids.includes(s.t));
+  const pick = []; const ys = new Set();
+  for (const s of shuffle(cand)) { if (pick.length >= 4) break; if (!ys.has(s.y)) { ys.add(s.y); pick.push({ t: s.t, y: s.y, title: s.title, txt: s.text.length > 95 ? s.text.slice(0, 92) + ' ……' : s.text, id: s.id }); } }
+  if (pick.length < 4) return null;
+  return buildOrder(pick, `auto:so:${pick.map(p => p.id).sort().join('|')}`, '사료 순서 자동 출제', pick.map(p => `src:${p.id}`), 'src');
+}
+function genSrcFact(tid) {
+  const s = shuffle(SOURCES.filter(x => x.t === tid && x.f))[0]; if (!s) return null;
+  const far = shuffle(SOURCES.filter(x => x.f && Math.abs(tIdx(x.t) - tIdx(s.t)) >= 3));
+  const d = []; for (const x of far) { if (d.length >= 4) break; if (!d.includes(x.f[0])) d.push(x.f[0]); }
+  if (d.length < 4) return null;
+  const opts = shuffle([s.f[0], ...d]);
+  return { id: `auto:sf:${s.id}`, grp: `src:${s.id}`, k: 'exam', auto: true, t: tid, lv: 2, src: 'auto', srcNote: '사료 자동 출제', tags: [tid], pts: 2.6,
+    stem: '다음 자료에 대한 설명으로 옳은 것은?', box: { kind: 'src', html: esc(s.text), cite: s.c },
+    ch: opts, ans: opts.indexOf(s.f[0]), why: opts.map(o => o === s.f[0] ? `O — ${s.title} (${s.d})` : `다른 자료(${SOURCES.find(x => x.f && x.f[0] === o).title})에 대한 설명`), rec: [`src:${s.id}`] };
+}
+function genAutoExams(n) {
+  const tids = S.set.topics; const out = []; const used = new Set(); let guard = 0;
+  const ok2 = S.set.lv.includes(2), ok3 = S.set.lv.includes(3);
+  if (!ok2 && !ok3) return out;
+  while (out.length < n && guard++ < n * 30) {
+    const tid = tids[Math.floor(Math.random() * tids.length)]; const r = Math.random(); let q = null;
+    if (r < 0.5) q = ok2 ? genTF(tid) : null;
+    else if (r < 0.75) q = ok2 ? genSrcFact(tid) : null;
+    else if (r < 0.88) q = ok3 ? genNoteOrder(tids) : null;
+    else q = ok3 ? genSrcOrder(tids) : null;
+    if (!q || used.has(q.grp)) continue;
+    used.add(q.grp); out.push(q); AUTO_BY[q.id] = q;
+  }
+  return out;
+}
+function examSet(n) {
+  const hand = examPool(); const useAuto = S.set.src.includes('auto');
+  if (n === 0) return S.set.wrongFirst ? ordered(hand) : pickSpaced(hand, hand.length);
+  const nHand = useAuto ? Math.min(hand.length, Math.ceil(n * 0.6)) : Math.min(hand.length, n);
+  let pick = S.set.wrongFirst ? ordered(hand).slice(0, nHand) : pickSpaced(hand, nHand);
+  if (useAuto && pick.length < n) pick = pick.concat(genAutoExams(n - pick.length));
+  if (pick.length < n) { const rest = hand.filter(x => !pick.includes(x)); pick = pick.concat(pickSpaced(rest, n - pick.length)); }
+  return pick;
+}
 const BANK_BY = Object.fromEntries(BANK.map(b => [b.id, b]));
 const EXAM_BY = Object.fromEntries(EXAM.map(e => [e.id, { ...e, k: 'exam' }]));
-const byId = id => BANK_BY[id] || EXAM_BY[id];
+const byId = id => BANK_BY[id] || EXAM_BY[id] || AUTO_BY[id];
 
 /* 매번 새로 만드는 출제 형태 (보기 섞기 등) */
 function instantiate(item, ansMode) {
   const it = { ...item, uid: Math.random().toString(36).slice(2) };
   if (it.k === 'exam') { it.opts = it.ch; it.correct = it.ans; it.choice = true; return it; }
+  if (it.k === 'src') {
+    const s = it.s; const pool = SOURCES.filter(x => x.title !== s.title);
+    const d = []; for (const x of [...shuffle(pool.filter(x => Math.abs(tIdx(x.t) - tIdx(s.t)) <= 1)), ...shuffle(pool)]) if (d.length < 3 && !d.includes(x.title)) d.push(x.title);
+    const opts = shuffle([s.title, ...d]); it.opts = opts; it.correct = opts.indexOf(s.title); it.choice = true; return it;
+  }
   if (it.k === 'ox') { it.choice = true; it.ox = true; it.opts = ['O', 'X']; it.correct = it.a ? 0 : 1; return it; }
   if (it.k === 'mc4') {
     const idx = shuffle([0, 1, 2, 3]); it.opts = idx.map(i => it.o[i]); it.correct = idx.indexOf(it.a); it.choice = true; return it;
@@ -2121,7 +2329,7 @@ function judgeTyped(it, raw) {
 /* ---------- 필터 ---------- */
 function passCommon(x) { return S.set.lv.includes(x.lv) && S.set.src.includes(x.src) && S.set.topics.includes(x.t || 't11'); }
 function recallPool() {
-  return BANK.filter(b => passCommon(b) && S.set.kinds.includes(b.k) && !(S.set.ans === 'type' && b.rev));
+  return BANK.filter(b => passCommon(b) && S.set.kinds.includes(b.k) && !(S.set.ans === 'type' && (b.rev || b.k === 'src')));
 }
 function examPool() { return EXAM.filter(passCommon); }
 function ordered(list) {
@@ -2185,13 +2393,13 @@ function renderHome() {
       ${bubbles('topics', TOPICS.map(t => [t.id, `${t.no} ${t.short}`]), S.set.topics)}</div></div>
     <div class="row"><div class="lab">난이도</div><div class="fld">${bubbles('lv', [[1, '상'], [2, '최상'], [3, '극상']], S.set.lv)}</div></div>
     <div class="row"><div class="lab">출처</div><div class="fld">${bubbles('src', Object.entries(SRC), S.set.src)}</div></div>
-    <div class="row ${m === 'exam' ? 'off' : ''}"><div class="lab">암기 유형</div><div class="fld">${bubbles('kinds', [['blank', '빈칸'], ['org', '단체·기관'], ['person', '인물'], ['year', '연도'], ['slogan', '구호'], ['mc4', '사지선다'], ['ox', 'OX']], S.set.kinds)}</div></div>
+    <div class="row ${m === 'exam' ? 'off' : ''}"><div class="lab">암기 유형</div><div class="fld">${bubbles('kinds', [['blank', '빈칸'], ['org', '단체·기관'], ['person', '인물'], ['year', '연도'], ['slogan', '구호'], ['mc4', '사지선다'], ['ox', 'OX'], ['src', '사료']], S.set.kinds)}</div></div>
     <div class="row ${m === 'exam' ? 'off' : ''}"><div class="lab">답하기</div><div class="fld">${bubbles('ans', [['choice', '보기에서 고르기'], ['type', '직접 쓰기']], S.set.ans, false)}<p class="hint">직접 쓰기여도 사지선다·OX는 고르기로 나와요.</p></div></div>
     <div class="row"><div class="lab">${m === 'recall' ? '문항 수' : '실전 문항'}</div><div class="fld">${bubbles('n', [[10, '10'], [20, '20'], [33, '33'], [0, '전부']], S.set.n, false)}
       <label class="tog"><input type="checkbox" id="wf" ${S.set.wrongFirst ? 'checked' : ''}> 많이 틀린 문제 먼저</label></div></div>
   </section>
   <div class="startbar">
-    <p class="cnt">조건에 맞는 문제: 암기 <b>${rc}</b>개, 실전 <b>${ec}</b>개</p>
+    <p class="cnt">조건에 맞는 문제: 암기 <b>${rc}</b>개, 실전 <b>${ec}</b>개${S.set.src.includes('auto') && m !== 'recall' ? ' + 노트·사료 자동 출제' : ''}</p>
     <button class="btn primary" id="start">시작하기</button>
   </div>`;
   $$('.mode', view).forEach(b => b.onclick = () => { S.set.mode = b.dataset.mode; save(); renderHome(); });
@@ -2208,16 +2416,14 @@ function renderHome() {
 
 function start() {
   const m = S.set.mode;
-  if (m === 'exam') {
-    const ex = ordered(examPool()); if (!ex.length) return emptyMsg();
-    return startPaper((S.set.wrongFirst ? ex : balanced(ex)).slice(0, nCount(ex.length)).sort((x, y) => tIdx(x.t) - tIdx(y.t)));
-  }
+  const target = S.set.n || 0;
   if (m === 'recall') {
-    const rc = ordered(recallPool()); if (!rc.length) return emptyMsg();
-    return startPractice(rc.slice(0, nCount(rc.length)), 'recall');
+    const rc = recallPool(); if (!rc.length) return emptyMsg();
+    return startPractice(S.set.wrongFirst ? ordered(rc).slice(0, nCount(rc.length)) : pickSpaced(rc, nCount(rc.length)), 'recall');
   }
-  const ex = ordered(examPool()); if (!ex.length) return emptyMsg();
-  startPractice((S.set.wrongFirst ? ex : balanced(ex)).slice(0, nCount(ex.length)).map(e => ({ ...e, k: 'exam' })), 'mix');
+  const ex = examSet(target); if (!ex.length) return emptyMsg();
+  if (m === 'exam') return startPaper(ex.sort((x, y) => tIdx(x.t) - tIdx(y.t)));
+  startPractice(ex.map(e => ({ ...e, k: 'exam' })), 'mix');
 }
 function emptyMsg() {
   const p = $('.cnt'); if (!p) { go('home'); return; } p.innerHTML = '조건에 맞는 문제가 없어요. 난이도나 출처를 더 골라 보세요.'; p.classList.add('warn');
@@ -2249,6 +2455,7 @@ function examBody(it, num) {
 function recallBody(it) {
   let q;
   if (it.rev) q = it.prompt;
+  else if (it.k === 'src') q = `다음 자료의 이름으로 옳은 것은?<span class="desc">${esc(it.q)}<small style="display:block;text-align:right;margin-top:4px">— ${esc(it.s.c || it.s.d)}</small></span>`;
   else if (it.k === 'blank' || it.sent) q = esc(it.q).replace(/【(.+?)】/, `<span class="blank" aria-label="빈칸">(　　　　　)</span>`);
   else if (it.k === 'org') q = `다음 설명에 해당하는 단체·기관은?<span class="desc">${esc(it.q)}</span>`;
   else if (it.k === 'person') q = `다음 설명에 해당하는 인물은?<span class="desc">${esc(it.q)}</span>`;
@@ -2281,7 +2488,7 @@ function startPractice(items, mode) {
 }
 function linkedFor(ex, wrongChoice) {
   const tags = ex.tags || [];
-  let cand = BANK.filter(b => !P.used.has(b.id) && passCommon(b) && S.set.kinds.includes(b.k) && !(S.set.ans === 'type' && b.rev) && (b.tags || []).some(t => tags.includes(t)));
+  let cand = BANK.filter(b => !P.used.has(b.id) && passCommon(b) && S.set.kinds.includes(b.k) && !(S.set.ans === 'type' && (b.rev || b.k === 'src')) && (b.tags || []).some(t => tags.includes(t)));
   if (!cand.length) cand = BANK.filter(b => !P.used.has(b.id) && (b.tags || []).some(t => tags.includes(t)));
   const w = cand.filter(b => S.wrong[b.id]);
   const n = wrongChoice ? 3 : 2;
@@ -2290,6 +2497,7 @@ function linkedFor(ex, wrongChoice) {
 function showItem() {
   if (P.i >= P.list.length) return practiceResult();
   const base = P.list[P.i];
+  S.seen[base.id] = (S.seen[base.id] || 0) + 1;
   const it = instantiate(base, S.set.ans);
   P.cur = it;
   const total = P.list.length;
@@ -2334,6 +2542,7 @@ function explainHTML(it, extra) {
     if (it.why) h += `<ul class="why">${it.ch.map((c, j) => `<li class="${j === it.ans ? 'is-ans' : ''}"><b>${CIRC[j]}</b> ${esc(it.why[j])}</li>`).join('')}</ul>`;
     return h;
   }
+  if (it.k === 'src') h += `<p class="full"><b>${esc(it.s.title)}</b> (${esc(it.s.d)}) — ${esc((it.s.f || [''])[0])}</p>`;
   if (it.k === 'blank' || it.sent) h += `<p class="full">${fullSentence(it)}</p>`;
   if (it.rev && it.k !== 'slogan') h += `<p class="full">${esc(it.name)}: ${esc(it.opts[it.correct])}</p>`;
   if (it.k === 'slogan' && !it.rev && it.memo) h += `<p class="full">${esc(it.memo)}</p>`;
@@ -2343,7 +2552,7 @@ function explainHTML(it, extra) {
 }
 function finish(ok, extra) {
   const it = P.cur;
-  record(it.id, ok);
+  recordItem(it, ok);
   P.res.push({ id: it.id, ok, k: it.k, linked: !!P.list[P.i].linkFrom, typed: extra.typed });
   let ansText;
   if (it.choice) ansText = it.ox ? (it.correct === 0 ? 'O' : 'X') : `${CIRC[it.correct]} ${it.k === 'exam' ? '' : esc(it.opts[it.correct])}`;
@@ -2368,6 +2577,7 @@ function shortQ(id) {
   const b = byId(id); if (!b) return id;
   if (b.k === 'exam') return b.stem.replace(/<[^>]+>/g, '');
   if (b.rev) return b.k === 'slogan' ? `${b.m}의 구호` : `${b.name}에 대한 설명`;
+  if (b.k === 'src') return '사료: ' + b.q.slice(0, 40) + ' …';
   if (b.k === 'blank' || b.sent) return b.q.replace(/【(.+?)】/, '(　　)');
   return b.q;
 }
@@ -2405,6 +2615,7 @@ function practiceResult() {
 let X = null;
 function startPaper(items) {
   X = { items: items.map(e => instantiate({ ...e, k: 'exam' })), marks: {}, t0: Date.now(), done: false };
+  items.forEach(e => { S.seen[e.id] = (S.seen[e.id] || 0) + 1; }); save();
   const total = X.items.reduce((a, e) => a + e.pts, 0);
   view.innerHTML = `
     <div class="qtop"><button class="txtbtn" id="quit">그만하기</button><span class="pc">실전 ${X.items.length}문항, ${total.toFixed(1)}점 만점</span><span class="timer" id="timer">0:00</span></div>
@@ -2437,7 +2648,7 @@ function submitPaper() {
   let got = 0, max = 0; const wrongN = [];
   X.items.forEach((it, n) => {
     max += it.pts; const ok = X.marks[n] === it.ans; if (ok) got += it.pts; else wrongN.push(n);
-    record(it.id, ok);
+    recordItem(it, ok);
     const sec = $(`#q${n}`); const btns = $$('.ch', sec);
     btns.forEach(b => b.disabled = true);
     sec.querySelector('.qn').insertAdjacentHTML('afterend', ok ? PEN_O.replace('pen-o', 'pen-o qmark') : PEN_X.replace('pen-x', 'pen-x qmark'));
@@ -2453,7 +2664,7 @@ function submitPaper() {
     ${wrongN.length ? `<p class="sub">틀린 문항: ${wrongN.map(n => `<a href="#q${n}">${n + 1}번</a>`).join(', ')}</p>` : '<p class="sub">만점이에요.</p>'}`);
   $('#omr').innerHTML = `<div class="omr-grid">${$('#omr .omr-grid').innerHTML}</div><div class="btnrow">${wrongN.length ? '<button class="btn primary" id="mixw">틀린 문항 왕복 복습</button>' : ''}<button class="btn" id="home">처음으로</button></div>`;
   $$('.omr-c', view).forEach(c => c.onclick = () => $(`#q${c.dataset.n}`).scrollIntoView({ behavior: 'smooth', block: 'start' }));
-  if (wrongN.length) $('#mixw').onclick = () => startPractice(wrongN.map(n => ({ ...EXAM_BY[X.items[n].id] })), 'mix');
+  if (wrongN.length) $('#mixw').onclick = () => startPractice(wrongN.map(n => ({ ...byId(X.items[n].id) })), 'mix');
   $('#home').onclick = () => go('home');
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -2533,7 +2744,7 @@ $$('.nav button').forEach(b => b.onclick = () => go(b.dataset.tab));
 go('home');
 
 /* 테스트용 */
-window.__hk = { KEYPOOL, BANK, EXAM, instantiate, judgeTyped, S, recallPool, examPool };
+window.__hk = { genAutoExams, examSet, pickSpaced, SOURCES, AUTO_BY, KEYPOOL, BANK, EXAM, instantiate, judgeTyped, S, recallPool, examPool };
 
 /* 오프라인용 서비스 워커 (GitHub Pages에서만 동작) */
 if ('serviceWorker' in navigator && location.protocol === 'https:' && /github\.io$/.test(location.hostname)) {
